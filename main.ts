@@ -1,4 +1,10 @@
-// An efficient iterative implementation of the Fibonacci sequence
+/**
+ * Computes the Fibonacci number at the specified position using an iterative approach.
+ *
+ * @param position - The zero-based index in the Fibonacci sequence. Must be a non-negative integer.
+ * @returns The Fibonacci number at the given position.
+ * @throws Error if `position` is not a non-negative integer.
+ */
 function fibonacci(position: number): number {
   // Input validation
   if (position !== Math.floor(position)) {
