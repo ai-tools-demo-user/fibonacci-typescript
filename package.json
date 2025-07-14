@@ -1,4 +1,12 @@
 {
+  "name": "fibonacci-typescript",
+  "version": "1.0.0",
+  "description": "A TypeScript implementation of Fibonacci sequence calculations",
+  "main": "main.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node main.js"
+  },
   "dependencies": {
     "typescript": "^5.8.3"
   }
